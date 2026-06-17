@@ -1,0 +1,12 @@
+body { margin: 0; overflow: hidden; background: #000; }
+#overlay {
+    position: absolute; top: 0; width: 100%; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    background: radial-gradient(circle, #2d0b1b, #000); z-index: 1000;
+}
+button {
+    padding: 20px 40px; font-size: 1.5rem; cursor: pointer;
+    background: transparent; color: #ffcccc; border: 2px solid #ff0033;
+    border-radius: 50px; transition: 0.3s;
+}
+button:hover { background: #ff0033; color: white; }

@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build output (thư mục được tạo sau khi chạy npm run build)
+dist
+build
+
+# Environment files
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
